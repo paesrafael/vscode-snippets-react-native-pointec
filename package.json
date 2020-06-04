@@ -1,0 +1,46 @@
+{
+  "name": "pointecsnippetsreactnative",
+  "description": "React Native snippets created by POINTEC",
+  "version": "1.0.0",
+  "displayName": "Pointec Snippets React Native",
+  "publisher": "pointec",
+  "icon": "images/pointec-logo.png",
+  "galleryBanner": {
+    "color": "#c11c32",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paesrafael/vscode-snippets-react-native-pointec"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.75.0"
+  }
+}
