@@ -2,7 +2,7 @@
   "styles": {
 		"prefix": "stcomp",
 		"body": [
-			"import styled from 'styled-components/native'",
+			"import styled from 'styled-components'",
 			"",
 			"const ${1:Container} = styled.${2:View}`",
 			"  ${3}",
