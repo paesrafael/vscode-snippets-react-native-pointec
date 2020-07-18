@@ -31,8 +31,10 @@ Segue a lista com todos os Snippets disponíveis e os seus gatilhos. O **⇥** s
 
 |                 Gatilho | Conteúdo                                                                      |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                `rnfc →` | Cria um Componente **Functional**                                             |
-|              `stcomp →` | Cria um arquivo de Estilização com **Styled Components**                      |
+|                `rnfc →` | Cria um Componente **Functional** do React Native                             |
+|              `stcomp →` | Cria um arquivo de Estilização com **Styled Components** do React Native      |
+|               `rjsfc →` | Cria um Componente **Functional** do ReactJS                                  |
+|           `rjsstcomp →` | Cria um arquivo de Estilização com **Styled Components** do ReactJS           |
 
 # Como usar
 
