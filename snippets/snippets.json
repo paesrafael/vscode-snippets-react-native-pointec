@@ -1,5 +1,5 @@
 {
-  "styles": {
+  "React Native Styles": {
 		"prefix": "stcomp",
 		"body": [
 			"import styled from 'styled-components'",
@@ -16,10 +16,10 @@
 			"  ${1:Container}, ${4:Text},",
 			"}"
 		],
-		"description": "Create React Native Styled Components file"
+		"description": "Create React Native Styled Components"
 	},
 
-	"componentFunctionalTypescript": {
+	"React Native Component Functional": {
 		"prefix": "rnfc",
 		"body": [
 			"import React from 'react'",
@@ -41,6 +41,47 @@
 			"}",
 			""
 		],
-		"description": "Create React Native Functional Component"
+		"description": "Create React Native Component Functional"
+	},
+
+	"ReactJS Styles": {
+		"prefix": "rjsstcomp",
+		"body": [
+			"import styled from 'styled-components'",
+			"",
+			"const ${1:Content} = styled.${2:div}`",
+			"  ${3}",
+			"`",
+			"",
+			"export { ${1:Content} }"
+		],
+		"description": "Create ReactJS Styled Components"
+	},
+
+	"ReactJS Component Funcional": {
+		"prefix": "rjsfc",
+		"body": [
+			"import React from 'react'",
+			"import Container from 'react-bootstrap/Container'",
+			"import Row from 'react-bootstrap/Row'",
+			"import Col from 'react-bootstrap/Col'",
+			"import Media from 'react-bootstrap/Media'",
+			"",
+			"import { api } from '~/services/api'",
+			"",
+			"export default function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
+				"  return (",
+					"    <Container>",
+					"      <Row>",
+					"        <Col>",
+					"          Test",
+					"        </Col>",
+					"      </Row>",
+					"    </Container>",
+				"  )",
+			"}",
+			""
+		],
+		"description": "Create ReactJS Component Functional"
 	}
 }
