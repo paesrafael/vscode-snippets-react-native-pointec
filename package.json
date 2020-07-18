@@ -1,8 +1,8 @@
 {
   "name": "pointecsnippetsreactnative",
-  "description": "React Native snippets created by POINTEC",
-  "version": "1.0.0",
-  "displayName": "Pointec Snippets React Native",
+  "description": "ReactJS e React Native snippets created by POINTEC",
+  "version": "1.0.1",
+  "displayName": "Pointec Snippets ReactJS e React Native",
   "publisher": "pointec",
   "icon": "images/pointec-logo.png",
   "galleryBanner": {
