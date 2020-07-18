@@ -3,7 +3,7 @@
     <img width="405" height="69" src="https://user-images.githubusercontent.com/46358065/83305364-fc86fe00-a1d6-11ea-8482-ccc8ce2fec8b.png" alt="POINTEC IT SOLUTIONS logo" />
   </a>
 
-  <h1 align="center">React Native Snippets</h1>
+  <h1 align="center">ReactJS e React Native Snippets</h1>
 </p>
 
 ## Sobre o projeto
